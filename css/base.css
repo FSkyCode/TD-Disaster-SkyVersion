@@ -1,0 +1,57 @@
+html {
+ font-size: 22px;
+}
+body {
+ font-family: Arial;
+}
+img {
+ max-width: 100%;
+ height: auto;
+ display: block;
+ margin: 5px 5px 5px 5px;
+ padding: 5px 5px 5px 5px;
+}
+.img2 {
+ border-radius: 50px;
+ width: 250px;
+}
+figure {
+ text-align: center;
+}
+.contenedor {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 10px;
+ align-items: center;
+ gap: 20px;
+}
+.info {
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+}
+.caja {
+ display: flex;
+ justify-content: center;
+ padding: 10px;
+ margin: 10px 0;
+ margin-bottom: 15px;
+ border-radius: 20px;
+}
+.textoBase {
+ font-size: var(--size);
+ font-weight: bold;
+ text-align: center;
+}
+.Titulo {
+ --size: 2rem;
+}
+.Texto {
+ --size: 1.5rem;
+}
+.Hab {
+ --size: 1.1rem;
+}
+.Link {
+ --size: 2rem;
+}

@@ -1,0 +1,24 @@
+body {
+ background-color: #FF8C00;
+}
+img {
+ box-shadow: 10px 10px 20px rgba(202,98,18,0.9);
+}
+.img2 {
+ box-shadow: 30px 30px 100px rgba(202,98,18,1);
+}
+.caja {
+ background-color: orange;
+}
+.Titulo {
+ color: #FFD700;
+}
+.Texto {
+ color: #FFE4B5;
+}
+.Hab {
+ color: #FFEBCD;
+}
+.Link {
+ color: #FFEFD5;
+}
