@@ -10,5 +10,3 @@ function redirigirHtml(ruta) {
 function abrirNuevaPag(ruta) {
     window.open(ruta);
 }
-
-alert("JS activo");
