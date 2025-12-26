@@ -5,6 +5,7 @@ Presionar.addEventListener("click", function () { redirigirHtml("html/personajes
 
 function redirigirHtml(ruta) {
     window.location.href = ruta;
+    alert("SI VES ESTO, EL JS FUNCIONA");
 }
 
 function abrirNuevaPag(ruta) {
