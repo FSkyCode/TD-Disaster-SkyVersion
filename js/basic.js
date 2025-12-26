@@ -1,11 +1,13 @@
 <script>
 function redirigirHtml(ruta) {
- window.location.href = ruta;
+    window.location.href = ruta;
 }
 
 function abrirNuevaPag(ruta) {
- window.open(ruta);
+    window.open(ruta);
 }
 
-document.getElementById("btnTails").addEventListener("click", function () { redirigirHtml("html/personajes/Tails.html"); }); 
+document.getElementById("btnTails").addEventListener("click", function () {
+    redirigirHtml("html/personajes/Tails.html");
+});
 </script>
