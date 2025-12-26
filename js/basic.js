@@ -1,6 +1,6 @@
-const document.getElementById('A');
+const Presionar = document.getElementById('A');
 
-A.addEventListener("click", redirigirHtml("html/personajes/Tails.html));
+Presionar.addEventListener("click", redirigirHtml("html/personajes/Tails.html));
 
 function xD(){
 
