@@ -1,10 +1,7 @@
 const Presionar = document.getElementById('A');
 
-Presionar.addEventListener("click", redirigirHtml("html/personajes/Tails.html"));
-
-function xD(){
-
-}
+Presionar.addEventListener("click", function () { redirigirHtml("html/personajes/Tails.html");
+});
 
 function redirigirHtml(ruta) {
     window.location.href = ruta;
