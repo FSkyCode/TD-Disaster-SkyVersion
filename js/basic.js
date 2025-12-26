@@ -1,7 +1,17 @@
-const Presionar = document.getElementById("A");
+# Variables
 
-Presionar.addEventListener("click", function () { redirigirHtml("html/personajes/Tails.html");
+const Tails = document.getElementById("btnTais");
+const Shadow = document.getElementById("btnShadow");
+
+# Botones
+
+Tails.addEventListener("click", function () { redirigirHtml("html/personajes/Tails.html");
 });
+
+Shadow.addEventListener("click", function () { redirigirHtml("html/personajes/Tails.html");
+});
+
+# Funciones
 
 function redirigirHtml(ruta) {
     window.location.href = ruta;
