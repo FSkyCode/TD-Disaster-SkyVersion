@@ -1,17 +1,17 @@
 body {
- background-color: #87CEFA;
+ background-color: #8B0000;
 }
 img {
  box-shadow: 10px 10px 20px rgba(202,98,18,0.9);
 }
 button {
- background-color: #8B0000;
+ background-color: #87CEFA;
  color: white;
  padding: 12px 20px;
  font-size: 16px;
 }
 button:hover {
- background-color: #00008B;
+ background-color: #FF6F6F;
 }
 .img2 {
  box-shadow: 30px 30px 100px rgba(202,98,18,1);
@@ -20,15 +20,15 @@ button:hover {
  background-color: orange;
 }
 .Titulo {
- color: #FF6F6F;
+ color: #00008B;
 }
 .Texto {
- color: #FF6F6F;
+ color: #00008B;
 }
 .Hab {
- color: #FF6F6F;
+ color: #00008B;
 }
 .Link {
- color: #FF6F6F;
+ color: #00008B;
 }
 
