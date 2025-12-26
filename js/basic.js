@@ -1,4 +1,11 @@
-<script>
+const document.getElementById('A');
+
+A.addEventListener("click", redirigirHtml("html/personajes/Tails.html));
+
+function xD(){
+
+}
+
 function redirigirHtml(ruta) {
     window.location.href = ruta;
 }
@@ -6,8 +13,5 @@ function redirigirHtml(ruta) {
 function abrirNuevaPag(ruta) {
     window.open(ruta);
 }
+
 alert("JS activo");
-document.getElementById("btnTails").addEventListener("click", function () {
-    redirigirHtml("html/personajes/Tails.html");
-});
-</script>
