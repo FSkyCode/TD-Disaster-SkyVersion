@@ -1,9 +1,9 @@
 <script>
-funcion redirigirHtml(ruta) {
+function redirigirHtml(ruta) {
  windows.location.href = ruta;
 }
 
-funcion abrirNuevaPag(ruta) {
+function abrirNuevaPag(ruta) {
  window.open(ruta);
 }
 
