@@ -1,6 +1,6 @@
 # Variables
 
-const Tails = document.getElementById("btnTais");
+const Tails = document.getElementById("btnTails");
 const Shadow = document.getElementById("btnShadow");
 
 # Botones
