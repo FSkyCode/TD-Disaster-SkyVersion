@@ -1,9 +1,9 @@
-# Variables
+// Variables
 
 const Tails = document.getElementById("btnTails");
 const Shadow = document.getElementById("btnShadow");
 
-# Botones
+// Botones
 
 Tails.addEventListener("click", function () { redirigirHtml("html/personajes/Tails.html");
 });
@@ -11,7 +11,7 @@ Tails.addEventListener("click", function () { redirigirHtml("html/personajes/Tai
 Shadow.addEventListener("click", function () { redirigirHtml("html/personajes/Tails.html");
 });
 
-# Funciones
+// Funciones
 
 function redirigirHtml(ruta) {
     window.location.href = ruta;
