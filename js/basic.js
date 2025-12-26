@@ -7,5 +7,5 @@ funcion abrirNuevaPag(ruta) {
  window.open(ruta);
 }
 
-document.getElementById("btnTails").addEventListener("click", function () { redirigirHtml("html/personajes/Tails.html); }); 
+document.getElementById("btnTails").addEventListener("click", function () { redirigirHtml("html/personajes/Tails.html"); }); 
 </script>
