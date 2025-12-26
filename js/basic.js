@@ -6,7 +6,7 @@ function redirigirHtml(ruta) {
 function abrirNuevaPag(ruta) {
     window.open(ruta);
 }
-
+alert("JS activo");
 document.getElementById("btnTails").addEventListener("click", function () {
     redirigirHtml("html/personajes/Tails.html");
 });
