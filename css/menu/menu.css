@@ -1,4 +1,7 @@
 /* menu.css */
+:root {
+ --text: e5e7eb
+}
 body {
  background-color: #0b1220;
 }
@@ -21,15 +24,15 @@ button:hover {
  background-color: orange;
 }
 .Titulo {
- color: #00008B;
+ color: var(--text);
 }
 .Texto {
- color: #00008B;
+ color: var(--text);
 }
 .Hab {
- color: #00008B;
+ color: var(--text);
 }
 .Link {
- color: #00008B;
+ color: var(--text);
 }
 
