@@ -1,6 +1,4 @@
 /* base.css */
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
-}
 /* Del html usa "rem", adaptativo en android y otros dispositivos xD */
 html {
   font-size: 16px;
