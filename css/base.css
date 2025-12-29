@@ -28,7 +28,7 @@ figure {
 }
 /* Evitar zoom y alargamiento */
 .main {
-  max-width: 1200px;
+  max-width: 350px;
   margin: auto;
   padding: 1.5rem;
 }
