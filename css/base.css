@@ -26,6 +26,12 @@ button {
 figure {
  text-align: center;
 }
+/* Evitar zoom y alargamiento */
+.main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1.5rem;
+}
 .contenedor {
  display: flex;
  justify-content: center;
