@@ -1,14 +1,14 @@
 // Variables
 
 const Tails = document.getElementById("btnTails");
-const Shadow = document.getElementById("btnShadow");
+const Nya = document.getElementById("btnNya");
 
 // Botones
 
 Tails.addEventListener("click", function () { redirigirHtml("html/personajes/Tails.html");
 });
 
-Shadow.addEventListener("click", function () { redirigirHtml("html/personajes/Tails.html");
+Nya.addEventListener("click", function () { redirigirHtml("html/personajes/Nya.html");
 });
 
 // Funciones
