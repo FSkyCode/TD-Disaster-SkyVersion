@@ -23,6 +23,13 @@ button {
  --size: 4rem;
 }
 
+#poema {
+    color: #ddd;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
 .fade {
     opacity: 0;
     transform: translateY(10px);
