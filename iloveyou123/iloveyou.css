@@ -67,3 +67,20 @@ button {
     font-size: 48px;
     color: #FF69B4;
 }
+
+.bordes {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+
+    background:
+        radial-gradient(circle at -20px -20px, red 25px, transparent 26px),
+        radial-gradient(circle at calc(100% + 20px) -20px, red 25px, transparent 26px),
+        radial-gradient(circle at -20px calc(100% + 20px), red 25px, transparent 26px),
+        radial-gradient(circle at calc(100% + 20px) calc(100% + 20px), red 25px, transparent 26px),
+        radial-gradient(circle at 50% -20px, red 20px, transparent 21px),
+        radial-gradient(circle at 50% calc(100% + 20px), red 20px, transparent 21px),
+        radial-gradient(circle at -20px 50%, red 20px, transparent 21px),
+        radial-gradient(circle at calc(100% + 20px) 50%, red 20px, transparent 21px);
+}
