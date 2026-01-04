@@ -23,6 +23,17 @@ button {
  --size: 4rem;
 }
 
+.fade {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 #contenedor {
  display: flex;
  flex-direction: column;
