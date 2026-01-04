@@ -1,5 +1,5 @@
 html {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 body {
@@ -20,8 +20,17 @@ button {
 }
 
 .texto {
+ --size: 3rem;
+}
+
+.textTitulo {
  --size: 4rem;
 }
+
+.textBoton {
+ --size: 5rem;
+}
+
 
 #poema {
     color: #ddd;
