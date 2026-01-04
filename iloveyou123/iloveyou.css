@@ -26,6 +26,7 @@ button {
 
 .textTitulo {
  --size: 4rem;
+ color: #FF0000;
 }
 
 .textBoton {
