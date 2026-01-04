@@ -1,14 +1,16 @@
-html {
- background: #;
+body {
+ background-color: #;
 }
 
-
-.button {
-
+button {
+ background-color: #87CEFA;
+ color: white;
+ padding: 12px 20px;
+ font-size: 16px;
 }
 
-.pressButton {
-
+button:hover {
+ background-color: #FF6F6F;
 }
 
 .text {
