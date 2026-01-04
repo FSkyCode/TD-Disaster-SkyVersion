@@ -3,18 +3,18 @@ html {
 }
 
 body {
- background-color: #;
+ background-color: #000000;
 }
 
 button {
- background-color: #87CEFA;
+ background-color: #FF0000;
  color: white;
  padding: 12px 20px;
  font-size: 16px;
 }
 
 button:hover {
- background-color: #FF6F6F;
+ background-color: #FFFFFF;
 }
 
 .textBse {
@@ -25,4 +25,15 @@ button:hover {
 
 .texto {
  --size: 4rem;
+}
+
+#contenedor {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ margin-top: 40px;
+}
+
+#final {
+
 }
