@@ -13,7 +13,7 @@ button {
  font-size: 16px;
 }
 
-.textBse {
+.textBase {
  font-size: var(--size);
  font-weight: bold;
  text-align: center;
