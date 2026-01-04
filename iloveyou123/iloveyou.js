@@ -38,3 +38,11 @@ botones.forEach((boton, index) => {
         }
     });
 });
+
+const poemas = document.querySelectorAll("#poema");
+
+poemas.forEach((texto, index) => {
+    setTimeout(() => {
+        texto.classList.add("mostrar");
+    }, index * 1200); // tiempo entre versos
+});
