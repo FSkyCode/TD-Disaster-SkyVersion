@@ -19,6 +19,7 @@ const botones = [
 ];
 
 const contenedor = document.getElementById("contenedor");
+const contenedorPoemas = document.getElementById("poemas");
 const final = document.getElementById("final");
 
 botones.forEach((boton, index) => {
@@ -33,6 +34,7 @@ botones.forEach((boton, index) => {
                 setTimeout(() => {
                     contenedor.style.display = "none";
                     final.style.display = "flex";
+                    contenedorPoemas.style.display = "none";
                 }, 800);
             }
         }
