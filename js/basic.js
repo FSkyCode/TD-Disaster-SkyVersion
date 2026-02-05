@@ -2,6 +2,7 @@
 
 const Tails = document.getElementById("btnTails");
 const Nya = document.getElementById("btnNya");
+const UmbrellaFight = document.getElementById("btnUmbrellaFight");
 
 // Botones
 
@@ -10,6 +11,10 @@ Tails.addEventListener("click", function () { redirigirHtml("html/personajes/Tai
 
 Nya.addEventListener("click", function () { redirigirHtml("html/personajes/Nya.html");
 });
+
+UmbrellaFight.addEventListener("click", function () { redirigirHtml("html/personajes/UmbrellaFight.html");
+});
+
 
 // Funciones
 
