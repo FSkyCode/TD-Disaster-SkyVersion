@@ -1,18 +1,14 @@
 // Variables
 
-const Tails = document.getElementById("btnTails");
-const Nya = document.getElementById("btnNya");
-const UmbrellaFight = document.getElementById("btnUmbrellaFight");
+const Almanaque = document.getElementById("btnAlmanaque");
+const Dibujos = document.getElementById("btnDibujos");
 
 // Botones
 
-Tails.addEventListener("click", function () { redirigirHtml("html/personajes/Tails.html");
+Almanaque.addEventListener("click", function () { redirigirHtml("html/opciones/Almanaque.html");
 });
 
-Nya.addEventListener("click", function () { redirigirHtml("html/personajes/Nya.html");
-});
-
-UmbrellaFight.addEventListener("click", function () { redirigirHtml("html/personajes/UmbrellaFight.html");
+Dibujos.addEventListener("click", function () { redirigirHtml("html/opciones/Dibujos.html");
 });
 
 
