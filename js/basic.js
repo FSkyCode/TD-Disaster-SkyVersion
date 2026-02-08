@@ -5,10 +5,10 @@ const Dibujos = document.getElementById("btnDibujos");
 
 // Botones
 
-Almanaque.addEventListener("click", function () { redirigirHtml("html/opciones/Almanaque.html");
+Almanaque.addEventListener("click", function () { redirigirHtml("html/opciones/almanaque.html");
 });
 
-Dibujos.addEventListener("click", function () { redirigirHtml("html/opciones/Dibujos.html");
+Dibujos.addEventListener("click", function () { redirigirHtml("html/opciones/dibujos.html");
 });
 
 
