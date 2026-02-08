@@ -6,7 +6,7 @@ const UmbrellaFight = document.getElementById("btnUmbrellaFight");
 
 // Botones
 
-Tails.addEventListener("click", function () { redirigirHtml("/html/personajes/Tails.html");
+Tails.addEventListener("click", function () { redirigirHtml("/personajes/Tails.html");
 });
 
 Nya.addEventListener("click", function () { redirigirHtml("/html/personajes/Nya.html");
