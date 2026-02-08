@@ -6,13 +6,13 @@ const UmbrellaFight = document.getElementById("btnUmbrellaFight");
 
 // Botones
 
-Tails.addEventListener("click", function () { redirigirHtml("../../../html/personajes/Tails.html");
+Tails.addEventListener("click", function () { redirigirHtml("../../html/personajes/Tails.html");
 });
 
-Nya.addEventListener("click", function () { redirigirHtml("html/personajes/Nya.html");
+Nya.addEventListener("click", function () { redirigirHtml("../../html/personajes/Nya.html");
 });
 
-UmbrellaFight.addEventListener("click", function () { redirigirHtml("html/personajes/UmbrellaFight.html");
+UmbrellaFight.addEventListener("click", function () { redirigirHtml("../../html/personajes/UmbrellaFight.html");
 });
 
 
